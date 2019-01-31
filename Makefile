@@ -9,6 +9,8 @@ SERVER_URL ?= http://nexus:8081/
 # Maven settings
 SETTINGS := ./settings.xml
 
+.PHONY: all build deploy
+
 all: build deploy
 
 build:
